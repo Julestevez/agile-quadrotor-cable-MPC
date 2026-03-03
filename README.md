@@ -1,6 +1,3 @@
-# agile-quadrotor-cable-MPC
-MPPI-MPC framework for agile quadrotor navigation with cable-suspended payloads through narrow gaps. Full 2D rigid-body dynamics with XPBD deformable cable model.
-
 # Agile Quadrotor Cable MPC
 
 **MPPI-MPC framework for agile quadrotor navigation with cable-suspended payloads through narrow apertures.**
@@ -13,9 +10,7 @@ Full 2D rigid-body quadrotor dynamics coupled with an XPBD deformable cable mode
 
 This repository contains the simulation code for three experiments that evaluate how a quadrotor with a cable-suspended payload can traverse narrow gaps where the gap height is smaller than the cable length. The key insight is that aggressive forward acceleration causes the cable to swing backward, reducing its vertical projection and enabling traversal — a maneuver that is **structurally infeasible** for rigid-link cable models.
 
-<p align="center">
-  <img src="docs/maneuver_schematic.png" width="700" alt="Swing-back maneuver schematic"/>
-</p>
+
 
 ### The Problem
 
