@@ -86,23 +86,23 @@ The cable nodes pass through the gap with clearances of 1.5 cm (bottom) and 3.4 
 The point-mass model succeeds in both gaps because it has no physical extent and no attitude dynamics. This demonstrates that the point-mass abstraction is **useful but dangerous**: it produces feasible-looking trajectories that are unexecutable by any real quadrotor with nonzero arm length in tight gaps.
 
 <p align="center">
-  <img src="https://github.com/Julestevez/agile-quadrotor-cable-MPC/blob/main/Experiment%203%20-%20Point%20mass/Point_mass_0.4m.gif" alt="Experiment 3" width="700"/>
+  <img src="https://github.com/Julestevez/agile-quadrotor-cable-MPC/blob/main/Experiment%203%20-%20Point%20mass/Point_mass_0.8m.gif" alt="Experiment 3" width="700"/>
 </p>
 
 <br>
 <br>
 
 <p align="center">
-  <img src="https://github.com/Julestevez/agile-quadrotor-cable-MPC/blob/main/Experiment%203%20-%20Point%20mass/Point_mass_0.8m.gif" alt="Experiment 3" width="700"/>
+  <img src="https://github.com/Julestevez/agile-quadrotor-cable-MPC/blob/main/Experiment%203%20-%20Point%20mass/Point_mass_0.4m.gif" alt="Experiment 3" width="700"/>
 </p>
 
 
 ```
 📁 Experiment 3 - Point mass/
-├── Point_mass_0.4m.gif            # 0.8m gap
-├── Point_mass_0.4m.py                  
-├── Point_mass_0.8m.gif            # 0.4m gap
-└── Point_mass_0.8m.py
+├── Point_mass_0.8m.gif            # 0.8m gap
+├── Point_mass_0.8m.py                  
+├── Point_mass_0.4m.gif            # 0.4m gap
+└── Point_mass_0.4m.py
 ```
 
 ---
