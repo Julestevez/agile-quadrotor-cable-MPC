@@ -38,12 +38,18 @@ A quadrotor carries a payload on a cable of length *L* = 1.0 m and must fly thro
 
 The controller discovers an aggressive tilting strategy (peak pitch ≈ 48°) that generates forward acceleration and swing-back. The drone body (29.9 cm vertical extent at max tilt) fits comfortably within the 0.8 m gap with clearances of 31.9 cm (bottom) and 13.9 cm (top).
 
+
+<p align="center">
+  <img src="https://github.com/Julestevez/agile-quadrotor-cable-MPC/blob/main/Experiment%201%20-%20Quad%200.8m%20gap/Experiment1.gif" alt="Experiment 1" width="600"/>
+</p>
+
 ```
 📁 Experiment 1 - Quad 0.8m gap/
-├── mppi_quad2d.py              # Main simulation script
-├── mppi_quad2d_analysis.png    # 6-panel trajectory + control plots
-└── mppi_quad2d.gif             # Animated traversal
+├── Experiment1.py              # Main simulation script
+└── Experiment1.gif             # Animated traversal
 ```
+<br>
+<br>
 
 ### Experiment 2 — Full Quadrotor, G = 0.4 m
 
