@@ -166,14 +166,14 @@ Each experiment is self-contained in a single Python file:
 
 ```bash
 # Experiment 1: Full quadrotor, 0.8m gap
-python "Experiment 1 - Quad 0.8m gap/mppi_quad2d.py"
+python "Experiment 1 - Quad 0.8m gap/Experiment1.py"
 
 # Experiment 2: Full quadrotor, 0.4m gap
-python "Experiment 2 - Quad 0.4m gap/mppi_quad2d_04gap.py"
+python "Experiment 2 - Quad 0.4m gap/Experiment2.py"
 
 # Experiment 3: Point mass
-python "Experiment 3 - Point mass/mppi_vec.py"         # 0.8m gap
-python "Experiment 3 - Point mass/mppi_vec_04gap.py"    # 0.4m gap
+python "Experiment 3 - Point mass/Point_mass_0.8m.py"    # 0.8m gap
+python "Experiment 3 - Point mass/Point_mass_0.4m.py"    # 0.4m gap
 ```
 
 Each script runs the full MPPI-MPC loop, prints live progress, reports collision analysis, and saves trajectory plots (`.png`) and animations (`.gif`).
