@@ -40,7 +40,7 @@ The controller discovers an aggressive tilting strategy (peak pitch ≈ 48°) th
 
 
 <p align="center">
-  <img src="https://github.com/Julestevez/agile-quadrotor-cable-MPC/blob/main/Experiment%201%20-%20Quad%200.8m%20gap/Experiment1.gif" alt="Experiment 1" width="600"/>
+  <img src="https://github.com/Julestevez/agile-quadrotor-cable-MPC/blob/main/Experiment%201%20-%20Quad%200.8m%20gap/Experiment1.gif" alt="Experiment 1" width="700"/>
 </p>
 
 ```
@@ -62,12 +62,16 @@ The controller discovers an aggressive tilting strategy (peak pitch ≈ 48°) th
 
 The cable nodes pass through the gap with clearances of 1.5 cm (bottom) and 3.4 cm (top). However, the pitch angle required for adequate swing-back (≈ 57°) gives the drone body a vertical extent of 33.4 cm — consuming 83.5% of the 0.4 m gap. The rotor tips collide with the obstacle walls. This reveals the **attitude–aperture coupling problem**: generating forward thrust requires pitching, which increases the drone's physical footprint.
 
+<p align="center">
+  <img src="https://github.com/Julestevez/agile-quadrotor-cable-MPC/blob/main/Experiment%202%20-%20Quad%200.4m%20gap/Experiment2.gif" alt="Experiment 2" width="700"/>
+</p>
 ```
 📁 Experiment 2 - Quad 0.4m gap/
-├── mppi_quad2d_04gap.py
-├── mppi_quad2d_04gap_analysis.png
-└── mppi_quad2d_04gap.gif
+├── Experiment2.py
+└── Experiment2.gif
 ```
+<br>
+<br>
 
 ### Experiment 3 — Point Mass, G = 0.8 m and G = 0.4 m
 
