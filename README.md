@@ -63,7 +63,7 @@ The controller discovers an aggressive tilting strategy (peak pitch ≈ 48°) th
 The cable nodes pass through the gap with clearances of 1.5 cm (bottom) and 3.4 cm (top). However, the pitch angle required for adequate swing-back (≈ 57°) gives the drone body a vertical extent of 33.4 cm — consuming 83.5% of the 0.4 m gap. The rotor tips collide with the obstacle walls. This reveals the **attitude–aperture coupling problem**: generating forward thrust requires pitching, which increases the drone's physical footprint.
 
 <p align="center">
-  <img src="https://github.com/Julestevez/agile-quadrotor-cable-MPC/blob/main/Experiment%202%20-%20Quad%200.4m%20gap/Experiment2.gif" alt="Experiment 2" width="700"/>
+  <img src="https://github.com/Julestevez/Genetic-algorithms-comparison-for-UAVs-task/blob/main/scenario_gifs/per_scenario/obstacle_avoidance_all_algorithms.gif" alt="Scenario 1" width="1400"/>
 </p>
 
 ```
